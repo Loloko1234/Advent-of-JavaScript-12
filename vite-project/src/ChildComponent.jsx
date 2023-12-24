@@ -16,19 +16,19 @@ function ChildComponent() {
       <ul>
         <li className="pick-one">
           <button onClick={(event) => redirectToAnotherPage(event)}>
-            <img src="/public/rock.png" alt="Rock" />
+            <img src="./rock.png" alt="Rock" />
             rock
           </button>
         </li>
         <li className="pick-one">
           <button onClick={(event) => redirectToAnotherPage(event)}>
-            <img src="./public/paper.png" alt="Paper" />
+            <img src="./paper.png" alt="Paper" />
             paper
           </button>
         </li>
         <li className="pick-one">
           <button onClick={(event) => redirectToAnotherPage(event)}>
-            <img src="./public/scissors.png" alt="Scissors" />
+            <img src="./scissors.png" alt="Scissors" />
             scissors
           </button>
         </li>

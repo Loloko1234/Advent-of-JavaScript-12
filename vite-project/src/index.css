@@ -58,16 +58,16 @@ li.pick-one img {
 
 /* Winner Page */
 body.winner.you-win {
-  background: url('./public/you-win.svg') left top no-repeat;
+  background: url('./you-win.svg') left top no-repeat;
   background-size: auto 100%;
 }
 
 body.winner.computer-win {
-  background: url('./public/computer-wins.svg') right top no-repeat;
+  background: url('./computer-wins.svg') right top no-repeat;
   background-size: auto 100%;
 }
 body.winner.tie-win {
-  background: url('./public/computer-wins.svg') right top no-repeat, url('./public/you-win.svg') left top no-repeat;
+  background: url('./computer-wins.svg') right top no-repeat, url('./you-win.svg') left top no-repeat;
   background-size: auto 100%;
 }
 body.computer-win h1.you-win,

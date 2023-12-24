@@ -48,14 +48,14 @@ const Winner = () => {
         <div className="wrapper ">
         <div className="your-pick">
             <h1 className="you-win">you win</h1>
-            <img src={`./public/${choice}.png`} alt="Rock" />
+            <img src={`./${choice}.png`} alt="Rock" />
         </div>
         <div>
             <p className="tie-win">tie</p>
         </div>
         <div className="computer-pick">
             <h1 className="computer-win">computer wins</h1>
-            <img src={`./public/${computerSelection}.png`} alt="Scissors" />
+            <img src={`./${computerSelection}.png`} alt="Scissors" />
         </div>
             <button className="play-again" onClick={handlePlayAgain}>
             Play Again
