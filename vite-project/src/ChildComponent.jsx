@@ -6,7 +6,8 @@ function ChildComponent() {
 
   const redirectToAnotherPage = (event) => {
     const buttonText = event.currentTarget.innerText;
-    console.log(buttonText);// Wyświetli tekst przycisku w konsoli
+    console.log(buttonText);
+    navigate('/winner', { state: { choice: buttonText } });
   };
 
   return (

@@ -62,16 +62,29 @@ body.winner.you-win {
   background-size: auto 100%;
 }
 
-body.winner.computer-wins {
+body.winner.computer-win {
   background: url('./public/computer-wins.svg') right top no-repeat;
   background-size: auto 100%;
 }
-
-body.computer-wins h1.you-win,
-body.you-win h1.computer-wins {
+body.winner.tie-win {
+  background: url('./public/computer-wins.svg') right top no-repeat, url('./public/you-win.svg') left top no-repeat;
+  background-size: auto 100%;
+}
+body.computer-win h1.you-win,
+body.you-win h1.computer-win,
+body.computer-win p.tie-win,
+body.you-win p.tie-win,
+body.tie-win h1.computer-win,
+body.tie-win h1.you-win {
   visibility: hidden;
 }
 
+.tie-win {
+  font-size: 50px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
 body.winner .wrapper {
   display: flex;
   gap: 200px;
